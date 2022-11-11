@@ -11,7 +11,7 @@ fetch(url)
     let datetime = data['datetime'].substr(11,5);
     $('#time').text(datetime);
 });
-}
+} 
 
 
 function renderQuote() {
